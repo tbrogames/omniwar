@@ -159,6 +159,12 @@ h1 {
             transition: all .5s ease;
 }
 
+.obsidian-news-image {
+    width: 100%;
+    aspect-ratio: 1024 / 616;
+    object-fit: cover;
+}
+
 .img-container img:hover {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
